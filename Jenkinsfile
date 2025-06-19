@@ -14,7 +14,7 @@ pipeline {
         stage('Clone') {
             steps {
                 timeout(time: 10, unit: 'MINUTES') {
-                    git branch: 'main', url: 'https://github.com/Carlitos-Omar/Entregable_Despliegue.git'
+                    git branch: 'main', url: 'https://github.com/Leoncio-Sanchez/despligue-lab.git'
                 }
             }
         }
