@@ -10,7 +10,7 @@ services:
       MYSQL_USER: laboratorio
       MYSQL_PASSWORD: fadic123
     ports:
-      - "3306:3306"
+      - "3308:3309"
     volumes:
       - ./docker/estructura.sql:/docker-entrypoint-initdb.d/estructura.sql
 
